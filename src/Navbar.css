@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(to right, #ff6600, #333333);
+    opacity: 0.5;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@
   }
   
   .navbar-links li a:hover {
-    color: #00ffcc;
+    color: #ff1e00;
   }
   
   .navbar-contact {

@@ -6,21 +6,22 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <section id="about" style={{ padding: "100px 20px", height: "100vh" }}>
+      <img src="/images/mesh-gradient (1).png" alt="Description of the image" />
+      <section id="about">
         <h1>About Me</h1>
-        <p>Details about yourself.</p>
+        <p>I am a fifth-year engineering and IT student...</p>
       </section>
-      <section id="projects" style={{ padding: "100px 20px", height: "100vh" }}>
+      <section id="projects">
         <h1>Projects</h1>
-        <p>Details about your projects.</p>
+        <p>Here are some of the projects I have worked on...</p>
       </section>
-      <section id="experience" style={{ padding: "100px 20px", height: "100vh" }}>
+      <section id="experience">
         <h1>Experience</h1>
-        <p>Details about your experience.</p>
+        <p>Details about my professional experience...</p>
       </section>
-      <section id="contact" style={{ padding: "100px 20px", height: "100vh" }}>
+      <section id="contact">
         <h1>Contact</h1>
-        <p>Contact details.</p>
+        <p>You can reach me at example@example.com</p>
       </section>
     </div>
   );

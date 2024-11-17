@@ -22,3 +22,39 @@
 .App-link {
   color: #61dafb;
 }
+
+/* App.css */
+section {
+  padding: 100px 20px;
+  height: 100vh;
+  color: white; /* Default text color */
+}
+
+#about {
+  text-align: center;
+}
+
+#projects {
+  text-align: left;
+}
+
+#experience {
+  background-color: #001f3f;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#contact {
+  background: radial-gradient(circle, #00ffcc, #333333);
+  text-align: right;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+}
