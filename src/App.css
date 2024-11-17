@@ -7,7 +7,6 @@
   pointer-events: none;
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -31,15 +30,17 @@ section {
 }
 
 #about {
+  background-color: #252422;
   text-align: center;
 }
 
 #projects {
+  background-color: #252422;
   text-align: left;
 }
 
 #experience {
-  background-color: #001f3f;
+  background-color: #252422;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -57,4 +58,12 @@ h1 {
 
 p {
   font-size: 1.2rem;
+}
+
+
+img {
+  display: block; /* Removes inline spacing */
+  margin: 0; /* Removes default margin */
+  padding: 0;
+  width: 100%; /* Ensure it spans the container width */
 }

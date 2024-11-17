@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <img src="/images/mesh-gradient (1).png" alt="Description of the image" />
+      
       <section id="about">
         <h1>About Me</h1>
         <p>I am a fifth-year engineering and IT student...</p>
