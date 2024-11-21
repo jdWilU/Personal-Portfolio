@@ -6,11 +6,11 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <ul className="navbar-links">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#about-me">ABOUT ME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
         </ul>
-        <a href="#contact" className="navbar-contact">Contact</a>
+        <a href="#contact" className="navbar-contact">CONTACT</a>
       </div>
     </nav>
   );
