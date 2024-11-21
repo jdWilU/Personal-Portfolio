@@ -24,13 +24,41 @@ section {
   color: white; /* Default text color */
 }
 
-#main{
-  padding: 0%;
-  display: block; /* Removes inline spacing */
+/* Main Section */
+#main {
+  position: relative; /* To make the image and content layer together */
+  height: 100vh; /* Full-screen height */
+  overflow: hidden; /* Prevent content overflow */
+}
 
-  margin: 0; /* Removes default margin */
-  width: 100%; /* Ensure it spans the container width */
+#main img {
+  width: 100%; /* Make the image cover the width of the section */
+  height: 100%; /* Ensure it spans the height */
+  object-fit: cover; /* Keep the aspect ratio */
+  position: absolute; /* Position the image at the top-left */
+  top: 0;
+  left: 0;
+  z-index: 1; /* Place the image behind the text */
+}
 
+.main-content {
+  position: absolute; /* Overlay content on the image */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position to truly center */
+  text-align: center; /* Center-align the text */
+  color: white; /* Text color */
+  z-index: 2; /* Place content above the image */
+}
+
+.main-content h1 {
+  font-size: 5rem; /* Adjust heading size */
+  margin: 0;
+}
+
+.main-content p {
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
 
 #about {
