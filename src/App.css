@@ -1,12 +1,58 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.background-containter{
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+/* Containers */
+
+.background-container{
   background-image: url('./images/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
   width: 100%;
+}
+
+.content-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+  padding: 2rem;
+  width: 80%;
+  height: 70%;
+  max-width: 1920px;
+  max-height: 1080px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-box h1 {
+  color: white;
+}
+
+/* Headings */
+h1 {
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+}
+
+h3 {
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
 }
